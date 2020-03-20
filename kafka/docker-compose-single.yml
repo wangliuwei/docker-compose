@@ -1,0 +1,23 @@
+version: '3'
+services:
+  szool:
+    image: wurstmeister/zookeeper
+    restart: unless-stopped
+    hostname: 192.168.150.128
+    ports:
+      - "2181:2181"
+    container_name: szookeeper
+  skafka:
+    image: wurstmeister/kafka:2.12-2.2.1
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: 192.168.150.128
+      KAFKA_ADVERTISED_PORT: 9092
+      KAFKA_ZOOKEEPER_CONNECT: "szool:2181"
+      KAFKA_BROKER_ID: 1
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+    depends_on:
+      - szool
+    container_name: skafka

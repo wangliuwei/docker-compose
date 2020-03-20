@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql:5.7.5
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD="true"
+    ports:
+      - '3306:3306'  #host物理直接映射端口为6606
+

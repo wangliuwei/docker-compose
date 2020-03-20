@@ -1,0 +1,83 @@
+2019/08/29 09:16:25 [error] 6#6: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/test.php"
+2019/08/29 11:24:17 [error] 6#6: *4 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/08/30 01:22:35 [error] 6#6: *5 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/06 10:26:22 [error] 9#9: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/test.php"
+2019/09/06 10:27:34 [alert] 1#1: worker process 6 exited on signal 9
+2019/09/06 10:27:34 [alert] 1#1: worker process 7 exited on signal 9
+2019/09/06 10:27:34 [alert] 1#1: worker process 8 exited on signal 9
+2019/09/06 10:27:34 [alert] 1#1: worker process 9 exited on signal 9
+2019/09/09 04:50:34 [error] 6#6: *1 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/09 05:50:36 [error] 6#6: *2 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/09 06:50:42 [error] 6#6: *3 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/09 08:06:45 [error] 6#6: *4 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/09 09:06:57 [error] 6#6: *5 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/09 10:07:04 [error] 6#6: *6 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/09 11:08:51 [error] 6#6: *7 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/09/12 08:01:17 [error] 9#9: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/12 09:58:54 [alert] 1#1: worker process 9 exited on signal 9
+2019/09/12 09:58:54 [alert] 1#1: worker process 10 exited on signal 9
+2019/09/12 09:58:54 [alert] 1#1: worker process 11 exited on signal 9
+2019/09/12 09:58:54 [alert] 1#1: worker process 12 exited on signal 9
+2019/09/16 08:08:39 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 10:03:34 [error] 7#7: *2 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 11:03:36 [error] 7#7: *3 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 12:04:25 [error] 7#7: *4 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 14:05:07 [error] 7#7: *5 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 15:05:10 [error] 7#7: *6 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 16:05:12 [error] 7#7: *7 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 17:05:15 [error] 7#7: *8 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 18:05:18 [error] 7#7: *9 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 19:05:29 [error] 7#7: *10 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 20:08:14 [error] 7#7: *11 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 21:09:34 [error] 7#7: *12 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 22:13:39 [error] 7#7: *13 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/16 23:13:40 [error] 7#7: *14 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/17 00:13:54 [error] 7#7: *15 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/17 01:18:41 [error] 7#7: *16 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/17 02:19:05 [error] 7#7: *17 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/17 03:19:24 [error] 7#7: *18 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/19 07:03:02 [error] 7#7: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.18.0.1, server: localhost, request: "GET /c.gif?dx=1&callback=vjs_156887658263187& HTTP/1.1", host: "letv.ipdx.cn.miaozhen.com", referrer: "http://minisite.letv.com/thirdparty/letvcookie/index.shtml"
+2019/09/19 19:19:39 [error] 7#7: *2 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/20 01:33:26 [error] 7#7: *3 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/20 09:52:49 [error] 6#6: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/20 10:24:32 [alert] 1#1: worker process 8 exited on signal 9
+2019/09/20 10:24:32 [alert] 1#1: worker process 6 exited on signal 9
+2019/09/20 10:24:32 [alert] 1#1: worker process 7 exited on signal 9
+2019/09/20 10:24:32 [alert] 1#1: worker process 9 exited on signal 9
+2019/09/26 01:30:29 [error] 8#8: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/27 08:29:08 [error] 9#9: *1 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "https://www.baidu.com/link?url=Q1xblNhD8LrkrMPO67aCcp9KL7nQYQMDC_ktlKOnu7U0vmTaEziLpdy7DReHn41mNhZ0s4qNmW9ZfVz-VHwQDa&wd=&eqid=e5d99d4d00013893000000045d8dc826"
+2019/09/27 08:29:08 [error] 9#9: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/09/29 01:32:01 [error] 9#9: *2 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/09/29 02:01:27 [alert] 1#1: worker process 6 exited on signal 9
+2019/09/29 02:01:27 [alert] 1#1: worker process 7 exited on signal 9
+2019/09/29 02:01:27 [alert] 1#1: worker process 8 exited on signal 9
+2019/09/29 02:01:27 [alert] 1#1: worker process 9 exited on signal 9
+2019/10/11 01:31:25 [error] 6#6: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/10/11 09:59:46 [error] 6#6: *2 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/10/12 01:24:31 [error] 6#6: *3 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/10/16 08:35:44 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/10/16 09:46:47 [error] 7#7: *2 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/10/17 01:33:15 [error] 7#7: *3 directory index of "/var/www/" is forbidden, client: 10.10.21.18, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.150"
+2019/10/25 08:07:06 [error] 9#9: *1 directory index of "/var/www/" is forbidden, client: 10.10.21.24, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.23"
+2019/10/25 09:08:06 [error] 9#9: *2 directory index of "/var/www/" is forbidden, client: 10.10.21.24, server: localhost, request: "GET / HTTP/1.1", host: "10.10.21.23"
+2019/10/28 06:44:52 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 06:47:32 [error] 7#7: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.18.0.1, server: localhost, request: "GET /irt?type=pv&ref=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D_eoVVnnDv8HHk-dgQFsu9T0yAa3LtpprIcXQ6mI9qwfs273E4s8HhS3AAEWzaNxo%26wd%3D%26eqid%3D9290ebdc001661b7000000045db68d4f&_iwt_UA=UA-sohu-000014&v=2.0.0.20181228&jsonp=_59BKY HTTP/1.1", host: "irs01.com", referrer: "http://www.sohu.com/a/233111809_198222"
+2019/10/28 07:44:59 [error] 7#7: *3 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 08:45:03 [error] 6#6: *1 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 09:45:11 [error] 8#8: *1 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 11:23:25 [error] 8#8: *2 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 12:29:20 [error] 8#8: *3 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 13:29:25 [error] 8#8: *4 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 14:29:54 [error] 8#8: *5 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 15:30:11 [error] 8#8: *6 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 16:38:24 [error] 8#8: *7 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 17:50:11 [error] 8#8: *8 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 18:50:44 [error] 8#8: *9 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 19:50:58 [error] 8#8: *10 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 20:52:31 [error] 8#8: *11 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 21:52:54 [error] 8#8: *12 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 22:53:17 [error] 8#8: *13 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/28 23:53:24 [error] 8#8: *14 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/29 00:54:00 [error] 8#8: *15 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/29 01:54:13 [error] 8#8: *16 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"
+2019/10/29 02:54:49 [error] 8#8: *17 directory index of "/var/www/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "[80fe:0000:0000:0000:60ab:32fc:979e:7987]"

@@ -1,0 +1,71 @@
+version: '3'
+
+networks:
+  etcd-net:
+    driver: bridge
+
+services:
+  etcd:
+    image: bitnami/etcd
+    # hostname: 127.0.0.1
+    ports:
+      - "2379:2379"
+      - "2380:2380"
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_NAME=etcd1
+      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://192.168.150.128:2380
+      - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+      - ETCD_ADVERTISE_CLIENT_URLS=http://192.168.150.128:2379
+      - ETCD_INITIAL_CLUSTER=etcd1=http://192.168.150.128:2380,etcd2=http://192.168.150.128:12380,etcd3=http://192.168.150.128:22380
+      - ETCD_INITIAL_CLUSTER_STATE=new
+    volumes:
+      - etcd_data:/bitnami
+    container_name: etcd1
+    networks:
+      - etcd-net
+
+  etcd1:
+    image: bitnami/etcd
+    # hostname: 127.0.0.1
+    ports:
+      - "12379:12379"
+      - "12380:12380"
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_NAME=etcd2
+      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://192.168.150.128:12380
+      - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:12380
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:12379
+      - ETCD_ADVERTISE_CLIENT_URLS=http://192.168.150.128:12379
+      - ETCD_INITIAL_CLUSTER=etcd1=http://192.168.150.128:2380,etcd2=http://192.168.150.128:12380,etcd3=http://192.168.150.128:22380
+      - ETCD_INITIAL_CLUSTER_STATE=new
+    volumes:
+      - etcd_data:/bitnami
+    container_name: etcd2
+    networks:
+      - etcd-net
+  etcd2:
+    image: bitnami/etcd
+    # hostname: 127.0.0.1
+    ports:
+      - "22379:22379"
+      - "22380:22380"
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_NAME=etcd3
+      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://192.168.150.128:22380
+      - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:22380
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:22379
+      - ETCD_ADVERTISE_CLIENT_URLS=http://192.168.150.128:22379
+      - ETCD_INITIAL_CLUSTER=etcd1=http://192.168.150.128:2380,etcd2=http://192.168.150.128:12380,etcd3=http://192.168.150.128:22380
+      - ETCD_INITIAL_CLUSTER_STATE=new
+    volumes:
+      - etcd_data:/bitnami
+    container_name: etcd3
+    networks:
+      - etcd-net
+volumes:
+  etcd_data:
+    driver: local
