@@ -1,19 +1,12 @@
 version: '3'
 
-networks:
-  etcd-net:
-    driver: bridge
-
 services:
   etcd:
     image: bitnami/etcd
-    # hostname: 127.0.0.1
     ports:
       - "2379:2379"
       - "2380:2380"
     environment:
-      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_ROOT_PASSWORD=123456
       - ETCD_NAME=etcd
-    container_name: single_etcd
-    networks:
-      - etcd-net
+    container_name: etcd
